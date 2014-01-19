@@ -3,9 +3,13 @@ class HomeController < ApplicationController
     @active = 'Index'
   end
 
-  def services
-    @active = 'Services'
-  end
+  # def services
+  #   @active = 'Services'
+  # end
+
+  # def team
+  #   @active = 'Team'
+  # end
 
   def about
     @active = 'About'
